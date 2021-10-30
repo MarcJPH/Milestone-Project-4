@@ -1,0 +1,8 @@
+html {
+    height: 100%;
+}
+
+.homeworkout {
+    background: url('/media/homepage.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
