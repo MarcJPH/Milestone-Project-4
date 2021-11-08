@@ -1,0 +1,80 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "EQU-157-BLL",
+            "name": "Adjustable kettlebell",
+            "description": "The 7-in-one adjustable kettlebell allows no more fussing around with a full set Of and ensures you can get on with your workout. 1 Easy Locking System - Simply Pull And Rotate; That Is It. Ready To Go!",
+            "price": 69.99,
+            "rating": 4.6,
+            "image_url": "null",
+            "image": "adjustable-kettlebell.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "EQU-157-STP",
+            "name": "Adjustable Stepper",
+            "description": "This adjustable stepper is ideal for adding to your workout. It's easy to adjust the height for a varied workout and clever design stores the height adjusting blocks underneath",
+            "price": 59.99,
+            "rating": 4.3,
+            "image_url": "null",
+            "image": "adjustable-stepper.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "EQU-157-YOG",
+            "name": "Yoga Exercise Mat",
+            "description": "The purple haze yoga mat, with a thickness of 6mm will be an ideal companion for yoga or any other floor exercise.",
+            "price": 25.99,
+            "rating": 4.1,
+            "image_url": "null",
+            "image": "yoga-mat.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "EQU-157-DUM",
+            "name": "Dumbbell Set",
+            "description": "These vinyl dumbbells are one of the most versatile pieces of equipment a home gym could have. Perfect for beginners and pros, the vinyl dumbbells allow you to adjust the weight to suit you.",
+            "price": 32.99,
+            "rating": 4.9,
+            "image_url": "null",
+            "image": "dumbbell-set.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "EQU-157-SUS",
+            "name": "TRX Suspension Trainer",
+            "description": "The suspension trainer features a high-strength braided belt, a high-strength hook, and two elastic-plastic handles. Whether it is outdoor or indoor, you can use these bands to add to your workout.",
+            "price": 88.99,
+            "rating": 4.7,
+            "image_url": "null",
+            "image": "trx-suspension-trainer.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "EQU-157-ROC",
+            "name": "TRX Rocker",
+            "description": "The TRX Rocker provides a highly effective hyper-focused muscle release, increased blood flow and circulation, and overall relaxation and recovery.",
+            "price": 45.99,
+            "rating": 4.9,
+            "image_url": "null",
+            "image": "trx-rocker.jpg"
+        }
+    }
+]
