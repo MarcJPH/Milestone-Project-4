@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg">
+    <a href="{% url 'home' %}" class="navbar-brand">Casa Fitness</a>
+    <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-expanded="false">
+                    Workout Plans
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">HIIT</a>
+                    <a class="dropdown-item" href="#">Yoga/Pilates</a>
+                    <a class="dropdown-item" href="#">Weight Training</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-expanded="false">
+                    Nutrition
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Meal Plans</a>
+                    <a class="dropdown-item" href="#">Pre & Post Workout</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-expanded="false">
+                    Account
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    {% if request.user.is_authenticated %}
+                    {% if request.user.is_superuser %}
+                    <a href="" class="dropdown-item">Site Management</a>
+                    {% endif %}
+                    <a href="" class="dropdown-item">My Profile</a>
+                    <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                    {% else %}
+                    <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                    <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                    {% endif %}
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="{% if grand_total %}{% else %}{% endif %} nav-link" href="#">
+                    <div class="text-center">
+                        <div><i class="fas fa-shopping-cart fa-lg"></i></div>
+                        <p class="my-0">
+                            {% if grand_total %}
+                            ${{ grand_total|floatformat:2 }}
+                            {% else %}
+                            $0.00
+                            {% endif %}
+                        </p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

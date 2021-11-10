@@ -10,6 +10,23 @@ body {
     font-family: 'Ubuntu';
 }
 
+.navbar-brand {
+    color:whitesmoke
+}
+
+.nav-link {
+    color: whitesmoke
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: whitesmoke;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(245, 245, 245, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .sign-up {
     color: whitesmoke;
 }
@@ -52,8 +69,8 @@ hr {
   }
   
   /* fixed top navbar only on medium and up */
-  @media (min-width: 992px) {
-      .fixed-top-desktop-only {
+  /* @media (min-width: 992px) { */
+      /* .fixed-top-desktop-only {
           position: fixed;
           top: 0;
           right: 0;
@@ -64,4 +81,4 @@ hr {
       .header-container {
           padding-top: 164px;
       }
-  }
+  } */
