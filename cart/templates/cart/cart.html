@@ -2,11 +2,11 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
@@ -24,11 +24,12 @@
         <div class="col">
             {% if cart_items %}
             <div class="table-responsive">
+                {{ cart_items }}
+            </div>
                 {% else %}
                 <p>Your cart is empty</p>
                 <a href="{% url 'products' %}" class="btn text-uppercase btn-info sign-up">Back to our Products</a>
                 {% endif %}
-            </div>
         </div>
     </div>
 </div>
