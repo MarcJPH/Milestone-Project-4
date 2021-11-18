@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load cart_tools %}
 
 {% block page_header %}
 <div class="container header-container">
@@ -66,7 +67,7 @@
                                     <a href="{% url 'products' %}" class="btn text-uppercase btn-info sign-up">
                                         Back to our Products
                                     </a>
-                                    <a href="" class="btn btn-dark">
+                                    <a href="{% url 'checkout' %}" class="btn btn-dark">
                                         <span class="text-uppercase">Secure Checkout</span>
                                         <span class="icon">
                                             <i class="fas fa-lock"></i>
