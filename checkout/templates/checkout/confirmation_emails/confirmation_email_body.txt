@@ -1,0 +1,19 @@
+Hi {{ order.full_name }}
+
+This is a confirmation of your order from Casa Fitness. Please find your order details below:
+
+Order Total: ${{ order.order_total }}
+
+Your order will be shipped to:
+{{ order.street_address1 }}
+{{ order.town_or_city }}
+{{ order.country }}
+
+
+If you have any questions, feel free to contact us at {{ contact_email }}.
+
+Thank you for your order!
+
+Sincerely,
+
+The Casa Fitness Team
