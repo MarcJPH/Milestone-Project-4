@@ -1,0 +1,26 @@
+[
+    {
+        "pk": 1,
+        "model": "workouts.category",
+        "fields": {
+            "name": "hiit",
+            "friendly_name": "HIIT"
+        }
+    }, 
+    {
+        "pk": 2,
+        "model": "workouts.category",
+        "fields": {
+            "name": "yoga_pilates",
+            "friendly_name": "Yoga & Pilates"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "workouts.category",
+        "fields": {
+            "name": "weight_training",
+            "friendly_name": "Weight Training"
+        }
+    }
+]

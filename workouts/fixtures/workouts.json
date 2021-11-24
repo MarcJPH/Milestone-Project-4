@@ -1,0 +1,162 @@
+[
+    {
+        "pk": 1,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-001-HI",
+            "name": "High Knees",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-002-HI",
+            "name": "Jump Squats",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 3,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-003-HI",
+            "name": "Push Ups",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 4,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-004-HI",
+            "name": "Standing Calf Raise",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 5,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-005-HI",
+            "name": "Mountain Climbers",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 6,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-006-HI",
+            "name": "Skipping Rope",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 7,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-007-HI",
+            "name": "Plank",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 8,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-008-HI",
+            "name": "Side Lunges",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 9,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-009-HI",
+            "name": "Standard Crunch",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 10,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-010-HI",
+            "name": "Toe Touch Crunches",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 11,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-011-HI",
+            "name": "Walking Pressup",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 12,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-013-HI",
+            "name": "Burpees",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 13,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-013-HI",
+            "name": "Russian Twist",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 14,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-014-HI",
+            "name": "Sumo Squats",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 15,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-015-HI",
+            "name": "Shoulder Taps",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    },
+    {
+        "pk": 16,
+        "model": "workouts.workouts",
+        "fields": {
+            "sku": "PLA-016-HI",
+            "name": "Diamond Pushup",
+            "duration": "15 - 30 SECS",
+            "category": 1
+        }
+    }
+]
