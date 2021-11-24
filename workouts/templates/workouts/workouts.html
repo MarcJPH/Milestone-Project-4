@@ -14,7 +14,7 @@
 <div class="background"></div>
 <div class="container">
     <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12">
             <hr>
             <h3>HIIT Workout Plan</h3>
             <h5 class="text-muted">A High Intensity Interval Training Plan for you to use at home!</h5>
@@ -23,7 +23,7 @@
     </div>
 
     <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12">
             <div class="table-responsive">
                 <table class="table table-bordered">
                     <thead>
@@ -37,67 +37,35 @@
                           <th scope="col">Sunday</th>
                         </tr>
                       </thead>
-                      {% for workout in workouts %}
                         <tbody>
-                            <tr>
-                                <td>1-3 SETS</td>
-                                <td>1-3 SETS</td>
-                                <td>1-3 SETS</td>
-                                <td>1-3 SETS</td>
-                                <td>1-3 SETS</td>
-                                <td>1-3 SETS</td>
-                                <td>1-3 SETS</td>
-                            </tr>
-                            <tr>
-                                <td>{{ workout.name }}</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        {% endfor %}    
+                                <tr>
+                                    <td><strong>1-3 SETS</strong></td>
+                                    <td><strong>1-3 SETS</strong></td>
+                                    <td><strong>REST</strong></td>
+                                    <td><strong>1-3 SETS</strong></td>
+                                    <td><strong>1-3 SETS</strong></td>
+                                    <td><strong>CARDIO</strong></td>
+                                    <td><strong>REST</strong></td>
+                                </tr>
+                                {% for workout in workouts %}
+                                    <tr>
+                                        {% if workout.day == "Monday" %}
+                                            <td>
+                                                <strong>{{ workout.duration }}</strong>
+                                                <p>
+                                                {{ workout.name }}
+                                                </p>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                    </tr>
+                                        {% endif %}
+                                {% endfor %}   
                         </tbody>
                 </table>
               </div>
