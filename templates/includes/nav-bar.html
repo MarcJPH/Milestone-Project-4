@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg cover">
     <a href="{% url 'home' %}" class="navbar-brand">Casa Fitness</a>
     <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,6 +14,8 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     {% if request.user.is_authenticated %}
                     <a class="dropdown-item" href="{% url 'workouts' %}">HIIT</a>
+                    {% elif not request.user.is_authenticated %}
+                    You have to be registered in to view our workout plans!
                     {% endif %}
                 </div>
             </li>
@@ -25,6 +27,8 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     {% if request.user.is_authenticated %}
                     <a class="dropdown-item" href="{% url 'nutrition' %}">Pre & Post Workout</a>
+                    {% elif not request.user.is_authenticated %}
+                    You have to be registered to view our nutrition information!
                     {% endif %}
                 </div>
             </li>

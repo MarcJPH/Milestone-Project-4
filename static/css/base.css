@@ -10,6 +10,10 @@ body {
     font-family: 'Ubuntu';
 }
 
+.cover {
+    background-color: #444444;
+}
+
 .navbar-brand {
     color:whitesmoke;
     margin-left: 25px;
