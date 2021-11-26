@@ -16,59 +16,127 @@
     <div class="row">
         <div class="col-12">
             <hr>
-            <h3>HIIT Workout Plan</h3>
-            <h5 class="text-muted">A High Intensity Interval Training Plan for you to use at home!</h5>
+            <h3 class="text-center">HIIT Workout Plan</h3>
+            <h5 class="text-muted text-center">A High Intensity Interval Training Plan for you to use at home!</h5>
             <hr>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-12">
-            <div class="table-responsive">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                          <th scope="col">Monday</th>
-                          <th scope="col">Tuesday</th>
-                          <th scope="col">Wednesday</th>
-                          <th scope="col">Thursday</th>
-                          <th scope="col">Friday</th>
-                          <th scope="col">Saturday</th>
-                          <th scope="col">Sunday</th>
-                        </tr>
-                      </thead>
-                        <tbody>
-                                <tr>
-                                    <td><strong>1-3 SETS</strong></td>
-                                    <td><strong>1-3 SETS</strong></td>
-                                    <td><strong>REST</strong></td>
-                                    <td><strong>1-3 SETS</strong></td>
-                                    <td><strong>1-3 SETS</strong></td>
-                                    <td><strong>CARDIO</strong></td>
-                                    <td><strong>REST</strong></td>
-                                </tr>
-                                {% for workout in workouts %}
-                                    <tr>
-                                        {% if workout.day == "Monday" %}
-                                            <td>
-                                                <strong>{{ workout.duration }}</strong>
-                                                <p>
-                                                {{ workout.name }}
-                                                </p>
-                                            </td>
-                                            <td>
-                                            </td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                    </tr>
-                                        {% endif %}
-                                {% endfor %}   
-                        </tbody>
-                </table>
-              </div>
+        <div class="col-9 plan">
+            <h4 class="text-center">Monday</h4>
+            <table class="table table-dark table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">Exercise</th>
+                        <th scope="col">Sets / Reps</th>
+                        <th scope="col">Rest</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for workout in workouts %}
+                    <tr>
+                        {% if workout.day == "Monday" %}
+                        <td><strong>{{ workout.name }}</strong></td>
+                        <td>{{ workout.sets_reps }}</td>
+                        <td>30 seconds</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+            <h4 class="text-center">Tuesday</h4>
+            <table class="table table-dark table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">Exercise</th>
+                        <th scope="col">Sets / Reps</th>
+                        <th scope="col">Rest</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for workout in workouts %}
+                    <tr>
+                        {% if workout.day == "Tuesday" %}
+                        <td><strong>{{ workout.name }}</strong></td>
+                        <td>{{ workout.sets_reps }}</td>
+                        <td>30 seconds</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+            <h4 class="text-center">Wednesday</h4>
+            <table class="table table-dark table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">REST</th>
+                    </tr>
+                </thead>
+            </table>
+            <h4 class="text-center">Thursday</h4>
+            <table class="table table-dark table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">Exercise</th>
+                        <th scope="col">Sets / Reps</th>
+                        <th scope="col">Rest</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for workout in workouts %}
+                    <tr>
+                        {% if workout.day == "Thursday" %}
+                        <td><strong>{{ workout.name }}</strong></td>
+                        <td>{{ workout.sets_reps }}</td>
+                        <td>30 seconds</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+            <h4 class="text-center">Friday</h4>
+            <table class="table table-dark table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">Exercise</th>
+                        <th scope="col">Sets / Reps</th>
+                        <th scope="col">Rest</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for workout in workouts %}
+                    <tr>
+                        {% if workout.day == "Friday" %}
+                        <td><strong>{{ workout.name }}</strong></td>
+                        <td>{{ workout.sets_reps }}</td>
+                        <td>30 seconds</td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+            <h4 class="text-center">Saturday</h4>
+            <table class="table table-dark table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">CARDIO</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                    <tr>
+                        <td>Do 30 minutes of cardio (walking, running, swimming)</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4 class="text-center">Sunday</h4>
+            <table class="table table-dark table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">REST</th>
+                    </tr>
+                </thead>
+            </table>
         </div>
     </div>
 </div>

@@ -19,7 +19,7 @@ class Workouts(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254, null=True, blank=True)
-    duration = models.CharField(max_length=254, null=True, blank=True)
+    sets_reps = models.CharField(max_length=254, null=True, blank=True)
     day = models.CharField(max_length=254, null=True, blank=True)
 
 

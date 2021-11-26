@@ -59,13 +59,6 @@
                 <a class="{% if grand_total %}font-weight-bold{% else %}{% endif %} nav-link" href="{% url 'view_cart' %}">
                     <div class="text-center">
                         <div><i class="fas fa-shopping-cart fa-lg"></i></div>
-                        <p class="my-0">
-                            {% if total %}
-                            ${{ total|floatformat:2 }}
-                            {% else %}
-                            $0.00
-                            {% endif %}
-                        </p>
                     </div>
                 </a>
             </li>

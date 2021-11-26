@@ -5,7 +5,7 @@ class WorkoutsAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
         'name',
-        'duration',
+        'sets_reps',
     )
 
     ordering = ('sku',)

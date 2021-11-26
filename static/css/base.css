@@ -109,6 +109,11 @@ hr {
     width: 150px;
 }
 
+.plan {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
 
 /* -------------------------------- Media Queries */

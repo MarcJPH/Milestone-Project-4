@@ -5,7 +5,7 @@
         "fields": {
             "sku": "PLA-001-HI",
             "name": "High Knees",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 30",
             "category": 1,
             "day": "Monday"
         }
@@ -16,7 +16,7 @@
         "fields": {
             "sku": "PLA-002-HI",
             "name": "Jump Squats",
-            "duration": "25 SECS",
+            "sets_reps": "3 / 30",
             "category": 1,
             "day": "Monday"
         }
@@ -27,7 +27,7 @@
         "fields": {
             "sku": "PLA-003-HI",
             "name": "Push Ups",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 50",
             "category": 1,
             "day": "Monday"
         }
@@ -38,7 +38,7 @@
         "fields": {
             "sku": "PLA-004-HI",
             "name": "Standing Calf Raise",
-            "duration": "40 SECS",
+            "sets_reps": "3 / Failure",
             "category": 1,
             "day": "Monday"
         }
@@ -49,7 +49,7 @@
         "fields": {
             "sku": "PLA-005-HI",
             "name": "Mountain Climbers",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 50",
             "category": 1,
             "day": "Monday"
         }
@@ -60,7 +60,7 @@
         "fields": {
             "sku": "PLA-006-HI",
             "name": "Skipping Rope",
-            "duration": "40 SECS",
+            "sets_reps": "3 / 100",
             "category": 1,
             "day": "Monday"
         }
@@ -71,7 +71,7 @@
         "fields": {
             "sku": "PLA-007-HI",
             "name": "Plank",
-            "duration": "60 SECS",
+            "sets_reps": "3 / 1 min",
             "category": 1,
             "day": "Tuesday"
         }
@@ -82,7 +82,7 @@
         "fields": {
             "sku": "PLA-008-HI",
             "name": "Side Lunges",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 50",
             "category": 1,
             "day": "Tuesday"
         }
@@ -93,7 +93,7 @@
         "fields": {
             "sku": "PLA-009-HI",
             "name": "Standard Crunch",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 50",
             "category": 1,
             "day": "Tuesday"
         }
@@ -104,7 +104,7 @@
         "fields": {
             "sku": "PLA-010-HI",
             "name": "Toe Touch Crunches",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 50",
             "category": 1,
             "day": "Tuesday"
         }
@@ -115,7 +115,7 @@
         "fields": {
             "sku": "PLA-011-HI",
             "name": "Walking Pressup",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 30",
             "category": 1,
             "day": "Tuesday"
         }
@@ -126,7 +126,7 @@
         "fields": {
             "sku": "PLA-013-HI",
             "name": "Burpees",
-            "duration": "40 SECS",
+            "sets_reps": "3 / 30",
             "category": 1,
             "day": "Tuesday"
         }
@@ -137,7 +137,7 @@
         "fields": {
             "sku": "PLA-013-HI",
             "name": "Russian Twist",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 50",
             "category": 1,
             "day": "Thursday"
         }
@@ -148,7 +148,7 @@
         "fields": {
             "sku": "PLA-014-HI",
             "name": "Sumo Squats",
-            "duration": "40 SECS",
+            "sets_reps": "3 / 50",
             "category": 1,
             "day": "Thursday"
         }
@@ -159,7 +159,7 @@
         "fields": {
             "sku": "PLA-015-HI",
             "name": "Shoulder Taps",
-            "duration": "40 SECS",
+            "sets_reps": "3 / 50",
             "category": 1,
             "day": "Thursday"
         }
@@ -170,7 +170,7 @@
         "fields": {
             "sku": "PLA-016-HI",
             "name": "Diamond Pushup",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 30",
             "category": 1,
             "day": "Thursday"
         }
@@ -181,7 +181,7 @@
         "fields": {
             "sku": "PLA-017-HI",
             "name": "Heel Taps",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 50",
             "category": 1,
             "day": "Thursday"
         }
@@ -192,7 +192,7 @@
         "fields": {
             "sku": "PLA-018-HI",
             "name": "Goblet Squats",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 30",
             "category": 1,
             "day": "Thursday"
         }
@@ -203,7 +203,7 @@
         "fields": {
             "sku": "PLA-019-HI",
             "name": "Overhead Press",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 30",
             "category": 1,
             "day": "Friday"
         }
@@ -214,7 +214,7 @@
         "fields": {
             "sku": "PLA-020-HI",
             "name": "Bear Crawl",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 1 min",
             "category": 1,
             "day": "Friday"
         }
@@ -225,7 +225,7 @@
         "fields": {
             "sku": "PLA-021-HI",
             "name": "Donkey Kick",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 50",
             "category": 1,
             "day": "Friday"
         }
@@ -236,7 +236,7 @@
         "fields": {
             "sku": "PLA-022-HI",
             "name": "Lateral Lunge",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 30",
             "category": 1,
             "day": "Friday"
         }
@@ -247,7 +247,7 @@
         "fields": {
             "sku": "PLA-023-HI",
             "name": "Mountain Climber Twist",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 30",
             "category": 1,
             "day": "Friday"
         }
@@ -258,7 +258,7 @@
         "fields": {
             "sku": "PLA-024-HI",
             "name": "Bicycle Crunch",
-            "duration": "30 SECS",
+            "sets_reps": "3 / 30",
             "category": 1,
             "day": "Friday"
         }
