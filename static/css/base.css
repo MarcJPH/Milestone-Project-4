@@ -104,6 +104,11 @@ hr {
 }
 
 
+.toast { 
+    opacity: 1 !important;
+}
+
+
 .images {
     height: 150px;
     width: 150px;
@@ -125,27 +130,9 @@ hr {
     }
   }
   
-  /* fixed top navbar only on medium and up */
-  /* @media (min-width: 992px) { */
-      /* .fixed-top-desktop-only {
-          position: fixed;
-          top: 0;
-          right: 0;
-          left: 0;
-          z-index: 1030;
-      }
-  
-      .header-container {
-          padding-top: 164px;
-      }
-  } */
 
 @media(max-width: 540px) {
     .strapline {
         font-size: 1.3rem;
-    }
-
-    .btn {
-        
     }
 }
