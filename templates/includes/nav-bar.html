@@ -11,9 +11,9 @@
                     data-toggle="dropdown" aria-expanded="false">
                     Workout Plans
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu cover" aria-labelledby="navbarDropdownMenuLink">
                     {% if request.user.is_authenticated %}
-                    <a class="dropdown-item" href="{% url 'workouts' %}">HIIT</a>
+                    <a class="dropdown-item site-text" href="{% url 'workouts' %}">HIIT</a>
                     {% elif not request.user.is_authenticated %}
                     You have to be registered in to view our workout plans!
                     {% endif %}
@@ -24,9 +24,9 @@
                     data-toggle="dropdown" aria-expanded="false">
                     Nutrition
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu cover" aria-labelledby="navbarDropdownMenuLink">
                     {% if request.user.is_authenticated %}
-                    <a class="dropdown-item" href="{% url 'nutrition' %}">Pre & Post Workout</a>
+                    <a class="dropdown-item site-text" href="{% url 'nutrition' %}">Pre & Post Workout</a>
                     {% elif not request.user.is_authenticated %}
                     You have to be registered to view our nutrition information!
                     {% endif %}
@@ -37,16 +37,16 @@
                     data-toggle="dropdown" aria-expanded="false">
                     Account
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu cover" aria-labelledby="navbarDropdownMenuLink">
                     {% if request.user.is_authenticated %}
                     {% if request.user.is_superuser %}
-                    <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                    <a href="{% url 'add_product' %}" class="dropdown-item site-text">Product Management</a>
                     {% endif %}
-                    <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                    <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                    <a href="{% url 'profile' %}" class="dropdown-item site-text">My Profile</a>
+                    <a href="{% url 'account_logout' %}" class="dropdown-item site-text">Logout</a>
                     {% else %}
-                    <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                    <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                    <a href="{% url 'account_signup' %}" class="dropdown-item site-text">Register</a>
+                    <a href="{% url 'account_login' %}" class="dropdown-item site-text">Login</a>
                     {% endif %}
                 </div>
             </li>

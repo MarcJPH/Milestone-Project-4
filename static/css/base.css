@@ -139,3 +139,13 @@ hr {
           padding-top: 164px;
       }
   } */
+
+@media(max-width: 540px) {
+    .strapline {
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        
+    }
+}
