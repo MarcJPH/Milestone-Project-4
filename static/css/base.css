@@ -58,6 +58,14 @@ body {
     color: whitesmoke;
 }
 
+.badge {
+    font-size: 12px;
+    background: #17a2b8;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+}
+
 .sign-up-button {
     margin-top: 55px;
 }
