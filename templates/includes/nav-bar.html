@@ -15,7 +15,7 @@
                     {% if request.user.is_authenticated %}
                     <a class="dropdown-item site-text" href="{% url 'workouts' %}">HIIT</a>
                     {% elif not request.user.is_authenticated %}
-                    You have to be registered in to view our workout plans!
+                    <span class="site-text">You have to be registered to view our workout plans!</span>
                     {% endif %}
                 </div>
             </li>
@@ -28,7 +28,7 @@
                     {% if request.user.is_authenticated %}
                     <a class="dropdown-item site-text" href="{% url 'nutrition' %}">Pre & Post Workout</a>
                     {% elif not request.user.is_authenticated %}
-                    You have to be registered to view our nutrition information!
+                    <span class="site-text">You have to be registered to view our nutrition information!</span>
                     {% endif %}
                 </div>
             </li>
