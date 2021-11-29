@@ -77,6 +77,11 @@ body {
     padding-top: 50px;
 }
 
+.about-image {
+    height: 200px;
+    width: 100%;
+}
+
 .display-6 {
     padding-top: 40px;
 }

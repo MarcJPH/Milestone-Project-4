@@ -20,11 +20,11 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuNutrition" role="button"
                     data-toggle="dropdown" aria-expanded="false">
                     Nutrition
                 </a>
-                <div class="dropdown-menu cover" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu cover" aria-labelledby="navbarDropdownMenuNutrition">
                     {% if request.user.is_authenticated %}
                     <a class="dropdown-item site-text" href="{% url 'nutrition' %}">Pre & Post Workout</a>
                     {% elif not request.user.is_authenticated %}
@@ -33,11 +33,11 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuAccount" role="button"
                     data-toggle="dropdown" aria-expanded="false">
                     Account
                 </a>
-                <div class="dropdown-menu cover" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu cover" aria-labelledby="navbarDropdownMenuAccount">
                     {% if request.user.is_authenticated %}
                     {% if request.user.is_superuser %}
                     <a href="{% url 'add_product' %}" class="dropdown-item site-text">Product Management</a>
