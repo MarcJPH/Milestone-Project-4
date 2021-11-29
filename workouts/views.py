@@ -7,7 +7,7 @@ def workouts(request):
     """
     A view to return all workouts available.
     """
-    
+
     workouts = Workouts.objects.all()
 
     context = {

@@ -137,6 +137,11 @@ hr {
     margin-top: 25px;
 }
 
+.nut-header {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
